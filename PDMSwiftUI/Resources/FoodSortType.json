@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "text": "All"
+    },
+    {
+        "id": 2,
+        "text": "Alphabetical"
+    },
+    {
+        "id": 3,
+        "text": "Recently Added"
+    },
+    {
+        "id": 4,
+        "text": "Most Used"
+    },
+    {
+        "id": 5,
+        "text": "Highest to Lowest"
+    },
+    {
+        "id": 6,
+        "text": "Lowest to Highest"
+    }
+]

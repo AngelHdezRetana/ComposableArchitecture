@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Banana"
+        "carbs": 9
+    },
+    {
+        "name": "Coffe"
+        "carbs": 23
+    },
+    {
+        "name": "Pizza"
+        "carbs": 98
+    },
+    {
+        "name": "Sandwich"
+        "carbs": 76
+    }
+]

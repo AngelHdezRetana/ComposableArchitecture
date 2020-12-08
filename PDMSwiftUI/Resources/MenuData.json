@@ -1,0 +1,131 @@
+{
+    "title": "Menu",
+    "listMenu":
+    [{
+        "id": 1,
+        "title": "ACTIONS",
+        "listItems": [
+            {
+                "id": 1,
+                "text": "Switch Mode",
+                "iconName": "switch_mode",
+                "state": true,
+                "defaultStyle": false
+            },
+            {
+                "id": 2,
+                "text": "Set Temp Basal",
+                "iconName": "set_temp_basal",
+                "state": false,
+                "defaultStyle": false
+            },
+            {
+                "id": 3,
+                "text": "Hypo Protect",
+                "iconName": "hypo_protect",
+                "state": true,
+                "defaultStyle": false
+            },
+            {
+                "id": 4,
+                "text": "Pod",
+                "iconName": "pod",
+                "state": true,
+                "defaultStyle": false
+            },
+            {
+                "id": 5,
+                "text": "Enter BG",
+                "iconName": "enter_bg",
+                "state": true,
+                "defaultStyle": false
+            },
+            {
+                "id": 6,
+                "text": "Suspend Insulin",
+                "iconName": "suspend",
+                "state": false,
+                "defaultStyle": false
+            }]
+    },
+    {
+        "id": 2,
+        "title": "PROGRAM & PRESETS",
+        "listItems": [
+            {
+                "id": 1,
+                "text": "Basal Programs",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 2,
+                "text": "Temp Basal Presents",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 3,
+                "text": "Custom Foods",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            }]
+    },
+    {
+        "id": 3,
+        "title": "SETTINGS",
+        "listItems": [
+            {
+                "id": 1,
+                "text": "CGM",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 2,
+                "text": "Pod",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 3,
+                "text": "Bolus",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 4,
+                "text": "Basal & Temp Basal",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 5,
+                "text": "Reminders",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 6,
+                "text": "App",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            },
+            {
+                "id": 7,
+                "text": "About",
+                "iconName": "xmark.icloud",
+                "state": true,
+                "defaultStyle": true
+            }]
+    }]
+}
