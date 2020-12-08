@@ -10,7 +10,7 @@ import SwiftUI
 struct TextFieldView: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
-            .padding(10)
+            .font(.largeTitle)
             .background(
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(Color.clear)

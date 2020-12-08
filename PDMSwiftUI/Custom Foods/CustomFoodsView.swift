@@ -36,7 +36,7 @@ struct CustomFoodsView: View {
                     Button(action: {
                         self.showSortView.toggle()
                     }) {
-                        Text("Sort")
+                        Text("")
                     }.sheet(isPresented: $showSortView) {
                         SortView()
                     }

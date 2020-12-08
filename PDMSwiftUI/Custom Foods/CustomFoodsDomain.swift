@@ -23,7 +23,7 @@ enum CustomFoodsAction: Equatable {
     case food(index: Int, action: FoodAction)
     case nameTextFieldChanged(String)
     case carbsTextFieldChanged(String)
-    case clearTextFields
+    case clearTextValues
 }
 
 struct CustomFoodsEnvironment {
@@ -48,8 +48,11 @@ let customFoodReducer = Reducer<CustomFoodsState, CustomFoodsAction, CustomFoods
             state.foodList = state.foodList.filter() {$0 != food}
             return .none
         case .addNewCustomFoodToList(let food):
-            state.foodList.append(food)
-            return Effect(value: CustomFoodsAction.clearTextFields)
+            if !food.name.isEmpty && !food.carbs.isEmpty {
+                state.foodList.append(food)
+                return Effect(value: CustomFoodsAction.clearTextValues)
+            }
+            return .none
         case .newCustomFoodsAction(_):
             return .none
         case .food(index:action:):
@@ -60,7 +63,7 @@ let customFoodReducer = Reducer<CustomFoodsState, CustomFoodsAction, CustomFoods
         case .carbsTextFieldChanged(let text):
             state.carbs = text
             return .none
-        case .clearTextFields:
+        case .clearTextValues:
             state.name = ""
             state.carbs = ""
             return .none

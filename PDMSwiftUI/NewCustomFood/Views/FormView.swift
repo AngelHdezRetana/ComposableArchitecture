@@ -16,7 +16,7 @@ struct FormView: View {
             Text("FOOD NAME")
                 .modifier(HeaderTextView())
             TextField(
-                "Enter food name",
+                "enter food name",
                 text: viewStore.binding(
                     get: \.name,
                     send: CustomFoodsAction.nameTextFieldChanged
@@ -26,7 +26,7 @@ struct FormView: View {
             Text("CARBS (g)")
                 .modifier(HeaderTextView())
             TextField(
-                "Enter food name",
+                "enter carbs value",
                 text: viewStore.binding(
                     get: \.carbs,
                     send:
